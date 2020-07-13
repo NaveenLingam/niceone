@@ -201,6 +201,22 @@ if(this.routeName === 'iniciar sesión') {
          return true;
      }
       
+if(this.routeName === 'casa') {
+         return true;
+     }
+      
+if(this.routeName === 'administrador') {
+         return true;
+     }
+      
+if(this.routeName === 'cerrar sesión') {
+         return true;
+     }
+      
+if(this.routeName === 'iniciar sesión') {
+         return true;
+     }
+      
       
       if (this.routeName === 'admin') {
           if (this.viewPermission !== 'true') {
